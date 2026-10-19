@@ -1,0 +1,40 @@
+body {
+background-color: #FAF7F2;
+color: #4A3F35;
+font-family: Arial, sans-serif;    
+}
+
+header {
+background-color: #E8DFD3;
+text-align: center;
+padding: 20px;    
+}
+nav li {
+display: inline;    
+}
+nav a {
+color: #4A3F35;
+text-decoration: none;    
+}
+.hero {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 60px;
+padding: 50px;
+background-color: #E8DFD3;    
+}
+.hero-image {
+width: 300px;
+height: 150px;
+background-color: #D6CCBF;
+border-radius: 10px;    
+}
+
+button {
+background-color: #A3B18A;
+color: white;
+border: none;
+border-radius: 8px;
+padding: 6px 16px;    
+}
