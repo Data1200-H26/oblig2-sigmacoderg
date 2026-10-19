@@ -1,11 +1,12 @@
 body {
-background-color: #FAF7F2;
+background-color: #F7F6F3;
 color: #4A3F35;
-font-family: Arial, sans-serif;    
+font-family: Arial, sans-serif; 
+margin: 0;   
 }
 
 header {
-background-color: #E8DFD3;
+background-color: #EDE9E4;
 text-align: center;
 padding: 20px;    
 }
@@ -16,19 +17,25 @@ nav a {
 color: #4A3F35;
 text-decoration: none;    
 }
+nav ul {
+    padding: 0;
+}
 .hero {
 display: flex;
 justify-content: center;
 align-items: center;
 gap: 60px;
 padding: 50px;
-background-color: #E8DFD3;    
+background-color: #EDE9E4;   
+width: auto; 
 }
 .hero-image {
 width: 300px;
 height: 150px;
 background-color: #D6CCBF;
-border-radius: 10px;    
+border-radius: 10px;  
+text-align: center;
+line-height: 150px;  
 }
 
 button {
@@ -37,4 +44,26 @@ color: white;
 border: none;
 border-radius: 8px;
 padding: 6px 16px;    
+}
+section {
+width: 1000px;
+margin: 0 auto;    
+}
+h2 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 40px 100px;
+}
+
+.box {
+width: 200px;
+height: 110px;
+border: 3px solid #A3B18A;
+border-radius: 10px;
+flex-shrink: 0;    
 }
